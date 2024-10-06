@@ -39,7 +39,7 @@ const Portfolio = () => {
     {
       title: "UI/UX Design Intern",
       company: "Nuri",
-      period: "Apr 2023 - May 2024",
+      period: "Mar 2024 - Apr 2024",
       description: <p>• Responsible for developing COD (Cash on Delivery) payment features on the application with design thinking method
       <br />• Developed wireframes and prototypes to test initial designs. Use design tools like Figma to create final visuals of user prototypes.
       <br />• Successfully gained fulfillment score reach within 80+ in final assessment test
