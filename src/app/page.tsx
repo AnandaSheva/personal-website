@@ -50,21 +50,12 @@ const Portfolio = () => {
     {
       title: "AIESEC in UNILA",
       company: "Organization",
-      period: "Aug 2023 - Apr 2024",
+      period: "Aug 2023 - Sep 2023",
       description: <p>• Completed local projects addressing educational challenges in underprivileged communities, impacting over 150 students, aligned with SDG 12: Responsible Consumption and SDG 13: Climate Action
       <br />• Developed leadership and managerial skills for youth student
       </p>,
       Image: "/images/aiesec.png",
       Link: <a href="https://www.linkedin.com/company/aiesec-in-universitas-lampung/" target="_blank">More</a>
-    },
-    {
-      title: "GEMASTIK XVII 2024 Participant - UX Design",
-      company: "Organization",
-      period: "Aug 2023 - Apr 2024",
-      description: <p>• Being part of Gemastik Event held in UNNES
-      </p>,
-      Image: "/images/gemastik.png",
-      Link: <a href="" target="_blank">More</a>
     },
     {
       title: "Himakom Unila",
@@ -74,6 +65,15 @@ const Portfolio = () => {
       <br />• Ensured that all content meets the needs and objectives of the organization and adheres to quality and consistency standards</p>, 
       Image: "/images/himakom.jpg",
       Link: <a href="https://drive.google.com/drive/folders/1HlhUd6QjbWm9cQgnzuCmDipVZkaYIKy2?usp=sharing" target="_blank">More</a>
+    },
+    {
+      title: "GEMASTIK XVII 2024 Participant - UX Design",
+      company: "Organization",
+      period: "Aug 2023 - Apr 2024",
+      description: <p>• Being part of Gemastik Event held in UNNES
+      </p>,
+      Image: "/images/gemastik.png",
+      Link: <a href="" target="_blank">More</a>
     },
     {
       title: "Speakers",
