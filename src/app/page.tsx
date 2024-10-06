@@ -59,8 +59,8 @@ const Portfolio = () => {
     },
     {
       title: "GEMASTIK XVII 2024 Participant - UX Design",
-      company: "Organization",
-      period: "Aug 2023 - Apr 2024",
+      company: "Event",
+      period: "Apr 2024 - Jun 2024",
       description: <p>• Being part of Gemastik Event held in UNNES
       </p>,
       Image: "/images/gemastik.png",
