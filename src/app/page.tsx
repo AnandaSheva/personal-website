@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import { Github, Linkedin, Menu, Instagram, Mail, X } from 'lucide-react';
+import { Github, Linkedin, Menu, Instagram, Mail, X, FileUser } from 'lucide-react';
 import {
   Card,
   CardContent,
@@ -59,8 +59,8 @@ const Portfolio = () => {
     },
     {
       title: "GEMASTIK XVII 2024 Participant - UX Design",
-      company: "Event",
-      period: "Apr 2024 - Jun 2024",
+      company: "Organization",
+      period: "Aug 2023 - Apr 2024",
       description: <p>• Being part of Gemastik Event held in UNNES
       </p>,
       Image: "/images/gemastik.png",
@@ -182,6 +182,7 @@ const Portfolio = () => {
         <a href="https://www.linkedin.com/in/anandashevahidayat/" target="_blank"><Linkedin className="h-8 w-8 text-gray-600 hover:text-blue-700 transition-transform transform hover:scale-110 duration-300" /></a>
         <a href="https://www.instagram.com/shevaanada_/" target="_blank"><Instagram className="h-8 w-8 text-gray-600 hover:text-pink-500 transition-transform transform hover:scale-110 duration-300" /></a>
         <a href="mailto:sheva1257@gmail.com"><Mail className="h-8 w-8 text-gray-600 hover:text-red-500 transition-transform transform hover:scale-110 duration-300" /></a>
+        <a href="https://drive.google.com/file/d/1aKmMk36hAUwMGNlV3yv-dUTBReR7YrCq/view?usp=sharing" target='_blank'><FileUser className="h-8 w-8 text-gray-600 hover:text-blue-300 transition-transform transform hover:scale-110 duration-300" /></a>
       </div>
     </div>
     <div className="relative w-full h-80 md-flex">
@@ -199,7 +200,7 @@ const Portfolio = () => {
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             <center>
             Ananda Sheva Hidayat is a third-year Computer Science student at the University of Lampung, with a keen interest in web development, mobile development, and UI/UX design. Known for being a hardworking and responsible individual, Sheva has gained extensive organizational experience through his involvement in Himakom and AIESEC, showcasing his ability to organize and lead effectively.
-              <br/> <br/> He possesses intermediate programming skills and is adept at developing web applications using various frameworks. Sheva has remote internship experience at Nuri as a UI/UX Designer, where he conducted user research, created user journeys, identified user needs, designed prototypes, and performed usability testing. His diverse experiences include collaboration in both internal and external projects, maintaining freelance work, leading teams, and analyzing data.
+             <br/> <br /> He possesses intermediate programming skills and is adept at developing web applications using various frameworks. Sheva has remote internship experience at Nuri as a UI/UX Designer, where he conducted user research, created user journeys, identified user needs, designed prototypes, and performed usability testing. His diverse experiences include collaboration in both internal and external projects, maintaining freelance work, leading teams, and analyzing data.
             </center>
           </p>
         </div>
