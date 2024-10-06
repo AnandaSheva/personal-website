@@ -1,6 +1,6 @@
 "use client"
-import React from 'react';
-import { Github, Linkedin, Menu, Instagram, Mail } from 'lucide-react';
+import React, { useState } from 'react';
+import { Github, Linkedin, Menu, Instagram, Mail, X } from 'lucide-react';
 import {
   Card,
   CardContent,
@@ -10,6 +10,9 @@ import {
 } from "@/components/ui/card";
 
 const Portfolio = () => {
+  
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
     React.useEffect(() => {
       document.documentElement.style.scrollBehavior = 'smooth';
       document.documentElement.style.scrollPaddingTop = '4rem';
@@ -19,6 +22,10 @@ const Portfolio = () => {
         document.documentElement.style.scrollPaddingTop = '0';
       };
     }, []);
+
+    const toggleMenu = () => {
+      setIsMenuOpen(!isMenuOpen);
+    };
   
   const experiences = [
     {
@@ -120,25 +127,36 @@ const Portfolio = () => {
   return (
     <div className="min-h-screen bg-cyan-50">
       
-      {/* Navbar */}
-      <nav className="bg-white shadow-sm fixed top-0 left-0 right-0 z-50 shadow-md">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="flex justify-between h-16 items-center">
-      <div className="flex items-center">
-        <a href="#main" className="text"> <img src="/images/icon.png" alt="Logo" className="h-8 w-8 rounded-full" /></a> 
-        <a href="#main" className="text"> <span className="ml-2 text-xl font-bold">Sheva</span></a> 
-      </div>
-      <div className="hidden md:flex space-x-8">
-        <a href="#about" className="text-gray-700 hover:text-gray-900 font-semibold">About</a>
-        <a href="#experience" className="text-gray-700 hover:text-gray-900 font-semibold">Experiences</a>
-        <a href="#projects" className="text-gray-700 hover:text-gray-900 font-semibold">Projects</a>
-      </div>
-      <div className="md:hidden">
-        <Menu className="h-6 w-6" />
-      </div>
-    </div>
-  </div>
-</nav>
+       {/* Navbar */}
+       <nav className="bg-white shadow-sm fixed top-0 left-0 right-0 z-50 shadow-md">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between h-16 items-center">
+            <div className="flex items-center">
+              <a href="#main" className="text"> <img src="/images/icon.png" alt="Logo" className="h-8 w-8 rounded-full" /></a> 
+              <a href="#main" className="text"> <span className="ml-2 text-xl font-bold">Sheva</span></a> 
+            </div>
+            <div className="hidden md:flex space-x-8">
+              <a href="#about" className="text-gray-700 hover:text-gray-900 font-semibold">About</a>
+              <a href="#experience" className="text-gray-700 hover:text-gray-900 font-semibold">Experiences</a>
+              <a href="#projects" className="text-gray-700 hover:text-gray-900 font-semibold">Projects</a>
+            </div>
+            <div className="md:hidden">
+              <button onClick={toggleMenu} className="text-gray-700 hover:text-gray-900 transition-transform duration-300 ease-in-out">
+                {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              </button>
+            </div>
+          </div>
+        </div>
+        {/* Mobile menu */}
+        <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-48' : 'max-h-0'}`}>
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <a href="#about" className="block text-gray-700 hover:text-gray-900 font-semibold py-2 transition-colors duration-200" onClick={toggleMenu}>About</a>
+            <a href="#experience" className="block text-gray-700 hover:text-gray-900 font-semibold py-2 transition-colors duration-200" onClick={toggleMenu}>Experiences</a>
+            <a href="#projects" className="block text-gray-700 hover:text-gray-900 font-semibold py-2 transition-colors duration-200" onClick={toggleMenu}>Projects</a>
+          </div>
+        </div>
+      </nav>
+
 
       {/* Hero Section */}
       <section id="main">
@@ -162,7 +180,7 @@ const Portfolio = () => {
       <div className="mt-6 flex space-x-6">
         <a href="https://github.com/AnandaSheva" target="_blank"><Github className="h-8 w-8 text-gray-600 hover:text-black duration-300 transition-transform transform hover:scale-110" /></a>
         <a href="https://www.linkedin.com/in/anandashevahidayat/" target="_blank"><Linkedin className="h-8 w-8 text-gray-600 hover:text-blue-700 transition-transform transform hover:scale-110 duration-300" /></a>
-        <a href="https://www.instagram.com/shevaananda_/" target="_blank"><Instagram className="h-8 w-8 text-gray-600 hover:text-pink-500 transition-transform transform hover:scale-110 duration-300" /></a>
+        <a href="https://www.instagram.com/shevaanada_/" target="_blank"><Instagram className="h-8 w-8 text-gray-600 hover:text-pink-500 transition-transform transform hover:scale-110 duration-300" /></a>
         <a href="mailto:sheva1257@gmail.com"><Mail className="h-8 w-8 text-gray-600 hover:text-red-500 transition-transform transform hover:scale-110 duration-300" /></a>
       </div>
     </div>
