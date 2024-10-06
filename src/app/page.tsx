@@ -31,7 +31,7 @@ const Portfolio = () => {
     {
       title: "Bangkit Academy 2024 By Google, GoTo, Tokopedia, Traveloka - Cloud Computing Learning Path ",
       company: "Dicoding",
-      period: "Sep 2024 - Jan 2025",
+      period: "Sep 2024 - Present",
       description: <p>• Ongoing</p> ,
       Image: "/images/bangkit.png",
       Link: <a href="https://www.linkedin.com/posts/anandashevahidayat_lifeatbangkit-bangkitacademy-msib7-activity-7245992663517126656-MKhE?utm_source=share&utm_medium=member_desktop" target="_blank">More</a>
