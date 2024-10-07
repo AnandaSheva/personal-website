@@ -180,7 +180,7 @@ const Portfolio = () => {
       <div className="mt-6 flex space-x-6">
         <a href="https://github.com/AnandaSheva" target="_blank"><Github className="h-8 w-8 text-gray-600 hover:text-black duration-300 transition-transform transform hover:scale-110" /></a>
         <a href="https://www.linkedin.com/in/anandashevahidayat/" target="_blank"><Linkedin className="h-8 w-8 text-gray-600 hover:text-blue-700 transition-transform transform hover:scale-110 duration-300" /></a>
-        <a href="https://www.instagram.com/shevaanada_/" target="_blank"><Instagram className="h-8 w-8 text-gray-600 hover:text-pink-500 transition-transform transform hover:scale-110 duration-300" /></a>
+        <a href="https://www.instagram.com/shevaananda_/" target="_blank"><Instagram className="h-8 w-8 text-gray-600 hover:text-pink-500 transition-transform transform hover:scale-110 duration-300" /></a>
         <a href="mailto:sheva1257@gmail.com"><Mail className="h-8 w-8 text-gray-600 hover:text-red-500 transition-transform transform hover:scale-110 duration-300" /></a>
         <a href="https://drive.google.com/file/d/1aKmMk36hAUwMGNlV3yv-dUTBReR7YrCq/view?usp=sharing" target='_blank'><FileUser className="h-8 w-8 text-gray-600 hover:text-blue-300 transition-transform transform hover:scale-110 duration-300" /></a>
       </div>
