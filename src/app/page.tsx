@@ -77,7 +77,7 @@ const Portfolio = () => {
       title: "Himakom Unila",
       company: "Student Associations",
       period: "Jan 2023 - Dec 2023",
-      description: <p>• Achieved 300+ views per upload within 2 months <br />• Successfully created over 25+ content creations, including feeds, reels, stories, and YouTube&quot;
+      description: <p>• Achieved 500+ views per upload within 2 months <br />• Successfully created over 25+ content creations, including feeds, reels, stories, and YouTube&quot;
       <br />• Ensured that all content meets the needs and objectives of the organization and adheres to quality and consistency standards</p>, 
       Image: "/images/himakom.jpg",
       Link: <a href="https://drive.google.com/drive/folders/1HlhUd6QjbWm9cQgnzuCmDipVZkaYIKy2?usp=sharing" target="_blank">More</a>
