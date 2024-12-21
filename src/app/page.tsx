@@ -29,12 +29,28 @@ const Portfolio = () => {
   
   const experiences = [
     {
-      title: "Bangkit Academy 2024 By Google, GoTo, Tokopedia, Traveloka - Cloud Computing Learning Path ",
-      company: "Dicoding",
-      period: "Sep 2024 - Present",
-      description: <p>• Ongoing</p> ,
+      title: "Cloud Engineer Intern",
+      company: "Megalogic",
+      period: "Oct 2024 - Dec 2024",
+      description: <p>
+        • Led a team of 6 cross-learning path members (Cloud Computing and Machine Learning) <br />
+        • Designed a real-time cloud-based architecture using Google Cloud. <br />
+        • Integrated YOLOv8 models developed by the Machine Learning team into the cloud system
+      </p> ,
+      Image: "/images/megalogic.png",
+      Link: <a href="https://megalogic.id/" target="_blank">More</a>
+    },    
+    {
+      title: "Bangkit Academy 2024 By Google, GoTo, Tokopedia, Traveloka - Cloud Computing Learning Path",
+      company: "Dicoding Indonesia",
+      period: "Sep 2024 - Dec 2024",
+      description: <p>
+      • Selected as one of 4.500 accepted students from 46.000+ applicants across Indonesia <br />
+      • Selected as one of 550 students for the Capstone Project Company Track <br />
+      • Learned Google Cloud technology and web development.
+      </p> ,
       Image: "/images/bangkit.png",
-      Link: <a href="https://www.linkedin.com/posts/anandashevahidayat_lifeatbangkit-bangkitacademy-msib7-activity-7245992663517126656-MKhE?utm_source=share&utm_medium=member_desktop" target="_blank">More</a>
+      Link: <a href="https://www.linkedin.com/posts/anandasheva_lifeatbangkit-bangkitacademy2024-kampusmerdeka-activity-7246002116383629313-XdNl?utm_source=share&utm_medium=member_desktop" target="_blank">More</a>
     },
     {
       title: "UI/UX Design Intern",
@@ -86,6 +102,12 @@ const Portfolio = () => {
   ];
   
   const projects = [
+    {
+      title: "Skintology",
+      tech: "HTML, JavaScript, TailwindCSS",
+      Image: "/images/7.png",
+      Link: <a href="https://sistem-pakar-skintology.vercel.app/" target="_blank">More</a>
+    },    
     {
       title: "Toolventory",
       tech: "HTML, CSS, PHP",
