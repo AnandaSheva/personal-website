@@ -107,6 +107,12 @@ const Portfolio = () => {
       tech: "HTML, JavaScript, TailwindCSS",
       Image: "/images/7.png",
       Link: <a href="https://sistem-pakar-skintology.vercel.app/" target="_blank">More</a>
+    },     
+    {
+      title: "F1 One Lap Prediction",
+      tech: "Python, Pandas, PyTorch, NumPy, Streamlit",
+      Image: "/images/8.png",
+      Link: <a href="https://github.com/AnandaSheva/data-analysis-of-F1" target="_blank">More</a>
     },    
     {
       title: "Toolventory",
@@ -186,7 +192,7 @@ const Portfolio = () => {
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
     <div>
       <h1 className="text-4xl md:text-6xl font-bold text-gray-900">Ananda Sheva Hidayat</h1>
-      <p className="mt-4 text-xl text-gray-600">Web Developer & UI/UX Design enthusiast.</p> <br />
+      <p className="mt-4 text-xl text-gray-600">Software Developer & Machine Learning enthusiast.</p> <br />
       <Card className="flex flex-row items-center rounded-xl shadow-md px-4 py-2 h-auto max-w-xl w-full md:w-3/4 lg:h-32 transform hover:scale-105 duration-300" >
   <div className="w-16 h-16 md:w-20 md:h-20 mr-4">
     <img src="images/unila.png" alt="unila" className="object-contain w-full h-full" />
@@ -212,17 +218,23 @@ const Portfolio = () => {
     </div>
   </div>
 </div>
+
       </section>
-
-
       {/* About Section */}
       <section id="about" className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-8">About <span className='text-cyan-600'>Me</span></h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             <center>
-            Ananda Sheva Hidayat is a third-year Computer Science student at the University of Lampung, with a keen interest in web development, mobile development, and UI/UX design. Known for being a hardworking and responsible individual, Sheva has gained extensive organizational experience through his involvement in Himakom and AIESEC, showcasing his ability to organize and lead effectively.
-             <br/> <br /> He possesses intermediate programming skills and is adept at developing web applications using various frameworks. Sheva has remote internship experience at Nuri as a UI/UX Designer, where he conducted user research, created user journeys, identified user needs, designed prototypes, and performed usability testing. His diverse experiences include collaboration in both internal and external projects, maintaining freelance work, leading teams, and analyzing data.
+            Ananda Sheva Hidayat is a third-year Computer Science student at the University of Lampung, with a keen interest in software development and machine learning.
+Known for being a hardworking and responsible individual, he has gained extensive organizational experience, showcasing his ability to organize and lead effectively.
+He possesses intermediate programming skills and is adept at developing software and machine learning applications, utilizing various frameworks.
+His diverse experiences include collaborating on both internal and external projects, maintaining freelance work, leading teams, and analyzing data.
+            </center>
+          </p>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <center className='pt-8'>
+            Kindly hit the social media profile or reach out to sheva1257@gmail.com for inquiries or simply connecting!
             </center>
           </p>
         </div>
